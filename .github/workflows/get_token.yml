@@ -6,7 +6,7 @@ name: guest_token
 on:
   # If you want enable auto update twitter guest token,you must Uncomment the following two lines!
   schedule:
-    - cron: '*/20  * * * *'
+    - cron: '*/30  * * * *'
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
