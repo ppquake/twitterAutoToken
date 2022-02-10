@@ -43,7 +43,7 @@ jobs:
       - name: commit
         run: |
             git config --global user.email chipson@foxmail.com
-            git config --global user.name your ppquake
+            git config --global user.name ppquake
             git add .
             git commit -m "update" -a
             
